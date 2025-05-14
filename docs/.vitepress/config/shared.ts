@@ -33,6 +33,7 @@ export const slugify = (str: string): string =>
 export const sharedConfig = defineConfig({
     title: '游乐场',
     appearance: 'dark',
+    base: '/playground/',
 
     markdown: {
         theme: {
