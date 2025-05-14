@@ -1,0 +1,43 @@
+{
+  "hash": "ff168c34",
+  "configHash": "7c432fb4",
+  "lockfileHash": "97f063bd",
+  "browserHash": "4f402cd4",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/.pnpm/vue@3.5.13_typescript@5.8.3/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "641d6f84",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.7.6/node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "dd68e4a5",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+core@12.8.2_typescript@5.8.3/node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "3711f513",
+      "needsInterop": false
+    },
+    "vue-use-spring": {
+      "src": "../../../../node_modules/.pnpm/vue-use-spring@0.3.3_vue@3.5.13_typescript@5.8.3_/node_modules/vue-use-spring/dist/index.mjs",
+      "file": "vue-use-spring.js",
+      "fileHash": "00fc568d",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+core@13.1.0_vue@3.5.13_typescript@5.8.3_/node_modules/@vueuse/core/index.mjs",
+      "file": "@vueuse_core.js",
+      "fileHash": "7fb4c646",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-QXP276DV": {
+      "file": "chunk-QXP276DV.js"
+    }
+  }
+}
