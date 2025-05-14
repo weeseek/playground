@@ -9,23 +9,22 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          node-version: lts/*
-          cache: pnpm
+          node-version: '20'
 
-      - name: 安装依赖
-        run: pnpm install
+      - name: Install dependencies
+        run: npm install
 
-      - name: 构建项目
-        run: pnpm run docs-build
+      - name: Build project
+        run: npm run docs-build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          # github_token: ${{ secrets.GITHUB_TOKEN }}
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: weeseek/playground
           publish_dir: docs/.vitepress/dist
