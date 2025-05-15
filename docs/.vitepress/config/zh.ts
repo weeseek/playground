@@ -6,6 +6,30 @@ export const META_DESCRIPTION = '值得你喜欢的 Vue Store'
 // TODO: translation of this
 // 'Intuitive, type safe, light and flexible Store for Vue'
 
+// 项目实战
+const practices = [
+    {
+        text: "企业级前端工程化方案",
+        link: "/practice/enterprise",
+    },
+    {
+        text: "企业级监控系统",
+        link: "/practice/monitor",
+    },
+    {
+        text: "定制化脚手架开发",
+        link: "/practice/cli",
+    },
+    {
+        text: "企业级组件库",
+        link: "/practice/component",
+    },
+    {
+        text: "CI/CD流水线搭建",
+        link: "/practice/cicd",
+    }
+]
+
 export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     description: META_DESCRIPTION,
     head: [
@@ -68,20 +92,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             },
             {
                 text: '前端项目',
-                items: [
-                    {
-                        text: '自研监控系统',
-                        link: '/project/monitor/',
-                    },
-                    {
-                        text: '自研脚手架',
-                        link: '/project/cli/',
-                    },
-                    {
-                        text: '自研组件库',
-                        link: '/project/component/',
-                    },
-                ]
+                items: practices
             },
             {
                 text: '前端面试',
@@ -103,6 +114,60 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             }
         ],
         sidebar: {
+            "/engineering/": [
+                {
+                    text: "大纲",
+                    link: "/engineering/",
+                },
+                {
+                    text: "概述",
+                    link: "/engineering/overview",
+                },
+                {
+                    text: "模块化",
+                    link: "/engineering/module",
+                },
+                {
+                    text: "包管理与依赖管理",
+                    link: "/engineering/packmanage",
+                },
+                {
+                    text: "构建工具",
+                    link: "/engineering/build",
+                },
+                {
+                    text: "代码规范与质量保障",
+                    link: "/engineering/eslint",
+                },
+                {
+                    text: "自动化测试",
+                    link: "/engineering/autotesting",
+                },
+                {
+                    text: "持续集成与部署",
+                    link: "/engineering/cicd",
+                },
+                {
+                    text: "性能优化",
+                    link: "/engineering/performance",
+                },
+                {
+                    text: "微前端",
+                    link: "/engineering/microfrontend",
+                },
+                {
+                    text: "工程化进阶",
+                    link: "/engineering/advanced",
+                },
+                {
+                    text: "未来趋势",
+                    link: "/engineering/future",
+                }, {
+                    text: "实战项目",
+                    items: practices
+                }
+            ],
+            "practice": practices,
             "/webpack/": [
                 {
                     text: "介绍",
