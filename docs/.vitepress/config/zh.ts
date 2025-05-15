@@ -18,7 +18,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
     themeConfig: {
         editLink: {
-            pattern: 'https://github.com/vuejs/pinia/edit/v3/packages/docs/:path',
+            pattern: 'https://github.com/weeseek/playground-blog/tree/main/docs/:path',
             text: '对本页提出修改建议',
         },
 
@@ -32,45 +32,119 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         },
 
         nav: [
-            // { text: 'Config', link: '/config/' },
-            // { text: 'Plugins', link: '/plugins/' },
             {
-                text: '指南',
-                link: '/zh/core-concepts/',
-                activeMatch: '^/zh/core-concepts/',
-            },
-            { text: 'API', link: '/zh/api/', activeMatch: '^/zh/api/' },
-            { text: '手册', link: '/zh/cookbook/', activeMatch: '^/zh/cookbook/' },
-            {
-                text: '相关链接',
+                text: '前端领域',
                 items: [
                     {
-                        text: '论坛',
-                        link: 'https://github.com/vuejs/pinia/discussions',
+                        text: '前端工程化',
+                        link: '/engineering/',
                     },
                     {
-                        text: '更新日志',
-                        link: 'https://github.com/vuejs/pinia/blob/v3/packages/pinia/CHANGELOG.md',
+                        text: '计算机网络',
+                        link: '/network/',
                     },
-                ],
+                    {
+                        text: '浏览器原理',
+                        link: '/browser/',
+                    },
+                    {
+                        text: '微应用',
+                        link: '/algorithm/',
+                    },
+                ]
             },
+            {
+                text: '前端技术栈',
+                items: [
+                    {
+                        text: 'Vue',
+                        link: '/tech-stack/vue/',
+                    },
+                    {
+                        text: 'Webpack',
+                        link: '/tech-stack/webpack/',
+                    },
+                ]
+            },
+            {
+                text: '前端项目',
+                items: [
+                    {
+                        text: '自研监控系统',
+                        link: '/project/monitor/',
+                    },
+                    {
+                        text: '自研脚手架',
+                        link: '/project/cli/',
+                    },
+                    {
+                        text: '自研组件库',
+                        link: '/project/component/',
+                    },
+                ]
+            },
+            {
+                text: '前端面试',
+                items: [
+                    {
+                        text: 'Vue 面试题',
+                        link: '/vue-interview/',
+                    },
+                    {
+                        text: 'JavaScript 面试题',
+                        link: '/js-interview/',
+                    },
+                ]
+            },
+            {
+                text: '书籍',
+                items: [
+                ]
+            }
         ],
         sidebar: {
-            '/zh/': [
+            "/webpack/": [
                 {
-                    text: '介绍',
+                    text: "介绍",
                     items: [
                         {
-                            text: 'Pinia 是什么？',
-                            link: '/zh/introduction.html',
-                        },
-                        {
-                            text: '开始',
-                            link: '/zh/getting-started.html',
+                            text: "基础",
+                            link: "/webpack/",
                         },
                     ],
                 },
-            ],
+                {
+                    text: "核心概念",
+                    items: [
+                        {
+                            text: "Plugin",
+                            link: "/webpack/plugin",
+                        },
+                        {
+                            text: "Loader",
+                            link: "/webpack/loader",
+                        },
+                    ],
+                },
+
+                {
+                    text: "简易版实现",
+                    items: [
+                        {
+                            text: "Webpack",
+                            link: "/webpack/mini-webpack",
+                        },
+                        {
+                            text: "Plugin",
+                            link: "/webpack/mini-plugin",
+                        },
+                        {
+                            text: "Loader",
+                            link: "/webpack/mini-loader",
+                        }
+                    ],
+                },
+            ]
         },
     },
 }

@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 开始玩耍
-      link: /zh/introduction
+      link: /introduction
 
 features:
   - title: 💡 所见即所得
