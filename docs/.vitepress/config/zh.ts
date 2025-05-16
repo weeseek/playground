@@ -9,8 +9,8 @@ export const META_DESCRIPTION = '值得你喜欢的 Vue Store'
 // 项目实战
 const practices = [
     {
-        text: "企业级前端工程化方案",
-        link: "/practice/enterprise",
+        text: "企业级组件库",
+        link: "/practice/component",
     },
     {
         text: "企业级监控系统",
@@ -21,12 +21,12 @@ const practices = [
         link: "/practice/cli",
     },
     {
-        text: "企业级组件库",
-        link: "/practice/component",
-    },
-    {
         text: "CI/CD流水线搭建",
         link: "/practice/cicd",
+    },
+    {
+        text: "企业级前端工程化方案",
+        link: "/practice/enterprise",
     }
 ]
 
@@ -168,46 +168,42 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                 }
             ],
             "practice": practices,
-            "/webpack/": [
+            "/network/": [
                 {
-                    text: "介绍",
-                    items: [
-                        {
-                            text: "基础",
-                            link: "/webpack/",
-                        },
-                    ],
+                    text: "大纲",
+                    link: "/network/",
                 },
                 {
-                    text: "核心概念",
-                    items: [
-                        {
-                            text: "Plugin",
-                            link: "/webpack/plugin",
-                        },
-                        {
-                            text: "Loader",
-                            link: "/webpack/loader",
-                        },
-                    ],
+                    text: "计算机网络概述",
+                    link: "/network/overview",
                 },
-
                 {
-                    text: "简易版实现",
-                    items: [
-                        {
-                            text: "Webpack",
-                            link: "/webpack/mini-webpack",
-                        },
-                        {
-                            text: "Plugin",
-                            link: "/webpack/mini-plugin",
-                        },
-                        {
-                            text: "Loader",
-                            link: "/webpack/mini-loader",
-                        }
-                    ],
+                    text: "HTTP协议深度解析",
+                    link: "/network/http",
+                },
+                {
+                    text: "HTTPS与安全",
+                    link: "/network/https",
+                },
+                {
+                    text: "浏览器网络机制",
+                    link: "/network/browser",
+                },
+                {
+                    text: "WebSocket与实时通信",
+                    link: "/network/websocket",
+                },
+                {
+                    text: "性能优化相关网络知识",
+                    link: "/network/performance",
+                },
+                {
+                    text: "前端调试与网络分析",
+                    link: "/network/debug",
+                },
+                {
+                    text: "现代Web应用网络特性",
+                    link: "/network/modern",
                 },
             ]
         },
