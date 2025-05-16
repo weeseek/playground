@@ -95,11 +95,11 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                 items: practices
             },
             {
-                text: '前端面试',
+                text: '手写代码篇',
                 items: [
                     {
-                        text: 'Vue 面试题',
-                        link: '/vue-interview/',
+                        text: 'JavaScript基础',
+                        link: '/coding/basic',
                     },
                     {
                         text: 'JavaScript 面试题',
@@ -113,6 +113,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                 ]
             }
         ],
+
         sidebar: {
             "/engineering/": [
                 {
@@ -204,6 +205,40 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                 {
                     text: "现代Web应用网络特性",
                     link: "/network/modern",
+                },
+            ],
+            "/browser/": [
+                {
+                    text: "大纲",
+                    link: "/browser/",
+                },
+                {
+                    text: "浏览器基础架构",
+                    link: "/browser/architecture",
+                },
+                {
+                    text: "网页渲染流程",
+                    link: "/browser/rendering",
+                },
+                {
+                    text: "JavaScript引擎与事件循环",
+                    link: "/browser/js-engine",
+                },
+                {
+                    text: "浏览器存储与缓存机制",
+                    link: "/browser/storage",
+                },
+                {
+                    text: "浏览器安全机制",
+                    link: "/browser/security",
+                },
+                {
+                    text: "现代浏览器高级特性",
+                    link: "/browser/advanced",
+                },
+                {
+                    text: "调试与性能分析",
+                    link: "/browser/debug",
                 },
             ]
         },
