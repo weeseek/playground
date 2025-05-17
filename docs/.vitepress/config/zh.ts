@@ -3,17 +3,19 @@ import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 export const META_URL = 'https://pinia.vuejs.org'
 export const META_TITLE = '游乐场 🍍'
 export const META_DESCRIPTION = '值得你喜欢的 Vue Store'
-// TODO: translation of this
-// 'Intuitive, type safe, light and flexible Store for Vue'
 
 // 项目实战
 const practices = [
     {
-        text: "企业级组件库",
+        text: "企业级微前端架构",
+        link: "/practice/microfrontend",
+    },
+    {
+        text: "企业级组件库建设",
         link: "/practice/component",
     },
     {
-        text: "企业级监控系统",
+        text: "企业级前端监控系统",
         link: "/practice/monitor",
     },
     {
@@ -25,8 +27,8 @@ const practices = [
         link: "/practice/cicd",
     },
     {
-        text: "企业级前端工程化方案",
-        link: "/practice/enterprise",
+        text: "DevOps",
+        link: "/practice/devops",
     }
 ]
 
@@ -71,39 +73,30 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                         text: '浏览器原理',
                         link: '/browser/',
                     },
-                    {
-                        text: '微应用',
-                        link: '/algorithm/',
-                    },
                 ]
             },
             {
-                text: '前端技术栈',
-                items: [
-                    {
-                        text: 'Vue',
-                        link: '/tech-stack/vue/',
-                    },
-                    {
-                        text: 'Webpack',
-                        link: '/tech-stack/webpack/',
-                    },
-                ]
-            },
-            {
-                text: '前端项目',
+                text: '工程化实践',
                 items: practices
             },
             {
-                text: '手写代码篇',
+                text: '手撕代码篇',
                 items: [
                     {
-                        text: 'JavaScript基础',
-                        link: '/coding/basic',
+                        text: 'JavaScript',
+                        link: '/coding/js',
                     },
                     {
-                        text: 'JavaScript 面试题',
-                        link: '/js-interview/',
+                        text: 'Promise',
+                        link: '/coding/promise',
+                    },
+                    {
+                        text: 'Vue',
+                        link: '/coding/vue',
+                    },
+                    {
+                        text: 'Webpack',
+                        link: '/coding/webpack',
                     },
                 ]
             },
