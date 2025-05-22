@@ -13,7 +13,7 @@ hero:
     alt: 游乐场
   actions:
     - theme: brand
-      text: 开始玩耍
+      text: 开始游玩
       link: /introduction
 
 features:
