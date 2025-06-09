@@ -80,6 +80,39 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                 items: practices
             },
             {
+                text: 'AI',
+                items: [
+                    {
+                        text: '学习路线',
+                        link: '/ai/',
+                    },
+                    {
+                        text: 'Python',
+                        link: '/ai/python',
+                    },
+                    {
+                        text: '数学',
+                        link: '/ai/math',
+                    },
+                    {
+                        text: '数据分析',
+                        link: '/ai/data',
+                    },
+                    {
+                        text: '数据结构与算法',
+                        link: '/ai/algorithm',
+                    },
+                    {
+                        text: '机器学习',
+                        link: '/ai/machine',
+                    },
+                    {
+                        text: '深度学习',
+                        link: '/ai/deeplearning',
+                    }
+                ]
+            },
+            {
                 text: '手撕代码篇',
                 items: [
                     {
