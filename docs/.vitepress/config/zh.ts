@@ -84,7 +84,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                 items: [
                     {
                         text: '学习路线',
-                        link: '/ai/',
+                        link: '/ai/index',
                     },
                     {
                         text: 'Python',
