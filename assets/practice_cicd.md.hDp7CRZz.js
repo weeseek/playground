@@ -1,1 +1,0 @@
-import{_ as c,c as e,o as t}from"./chunks/framework.B9LQZ38X.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"practice/cicd.md","filePath":"practice/cicd.md"}'),a={name:"practice/cicd.md"};function r(i,o,s,n,d,p){return t(),e("div")}const f=c(a,[["render",r]]);export{m as __pageData,f as default};

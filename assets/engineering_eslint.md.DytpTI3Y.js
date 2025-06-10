@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as n}from"./chunks/framework.B9LQZ38X.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"engineering/eslint.md","filePath":"engineering/eslint.md"}'),r={name:"engineering/eslint.md"};function a(i,s,o,c,l,p){return n(),t("div")}const m=e(r,[["render",a]]);export{d as __pageData,m as default};

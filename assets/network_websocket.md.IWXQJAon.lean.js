@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./chunks/framework.B9LQZ38X.js";const k=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"network/websocket.md","filePath":"network/websocket.md"}'),r={name:"network/websocket.md"};function a(s,c,n,p,_,d){return o(),t("div")}const m=e(r,[["render",a]]);export{k as __pageData,m as default};
