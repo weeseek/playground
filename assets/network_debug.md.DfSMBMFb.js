@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./chunks/framework.BgbGV2XG.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"network/debug.md","filePath":"network/debug.md"}'),a={name:"network/debug.md"};function o(n,s,c,d,p,_){return r(),t("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};

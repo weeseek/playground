@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as n}from"./chunks/framework.B9LQZ38X.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"engineering/packmanage.md","filePath":"engineering/packmanage.md"}'),t={name:"engineering/packmanage.md"};function r(c,o,i,s,p,m){return n(),a("div")}const d=e(t,[["render",r]]);export{_ as __pageData,d as default};

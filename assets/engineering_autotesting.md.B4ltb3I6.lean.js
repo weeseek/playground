@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n}from"./chunks/framework.B9LQZ38X.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"engineering/autotesting.md","filePath":"engineering/autotesting.md"}'),a={name:"engineering/autotesting.md"};function o(r,i,s,c,g,p){return n(),t("div")}const m=e(a,[["render",o]]);export{d as __pageData,m as default};
