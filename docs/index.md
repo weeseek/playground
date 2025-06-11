@@ -2,7 +2,7 @@
 layout: home
 
 title: 游乐场
-titleTemplate: The intuitive store for Vue.js
+titleTemplate: 
 
 hero:
   name: 前端游乐场
