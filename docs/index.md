@@ -5,9 +5,9 @@ title: 游乐场
 titleTemplate: The intuitive store for Vue.js
 
 hero:
-  name: 游乐场
-  text: "前端游乐场"
-  tagline: "类型安全、可扩展性以及模块化设计。\n甚至让你忘记正在使用的是一个状态库。"
+  name: 前端游乐场
+  text: ""
+  tagline: "专注于前端技术学习与实践的互动分享平台。"
   image:
     src: /logo.svg
     alt: 游乐场
