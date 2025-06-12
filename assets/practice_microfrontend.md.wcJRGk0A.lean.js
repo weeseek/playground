@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./chunks/framework.BgbGV2XG.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"practice/microfrontend.md","filePath":"practice/microfrontend.md"}'),c={name:"practice/microfrontend.md"};function o(a,n,i,s,d,p){return r(),t("div")}const _=e(c,[["render",o]]);export{f as __pageData,_ as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./chunks/framework.BX9uSPFk.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"browser/architecture.md","filePath":"browser/architecture.md"}'),a={name:"browser/architecture.md"};function c(o,s,n,i,p,_){return r(),t("div")}const f=e(a,[["render",c]]);export{m as __pageData,f as default};

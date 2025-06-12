@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./chunks/framework.BX9uSPFk.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"practice/monitor.md","filePath":"practice/monitor.md"}'),r={name:"practice/monitor.md"};function a(c,n,i,s,p,m){return o(),e("div")}const f=t(r,[["render",a]]);export{d as __pageData,f as default};
