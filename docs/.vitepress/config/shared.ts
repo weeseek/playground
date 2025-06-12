@@ -83,26 +83,26 @@ export const sharedConfig = defineConfig({
             },
         ],
 
-        [
-            'script',
-            {
-                src: 'https://cdn.usefathom.com/script.js',
-                'data-site': 'KFPPRRIS',
-                'data-spa': 'auto',
-                defer: '',
-            },
-        ],
+        // [
+        //     'script',
+        //     {
+        //         src: 'https://cdn.usefathom.com/script.js',
+        //         'data-site': 'KFPPRRIS',
+        //         'data-spa': 'auto',
+        //         defer: '',
+        //     },
+        // ],
 
         // Vue School Top banner
-        [
-            'script',
-            {
-                src: 'https://vueschool.io/banner.js?affiliate=pinia&type=top',
-                // @ts-expect-error: vitepress bug
-                async: true,
-                type: 'text/javascript',
-            },
-        ],
+        // [
+        //     'script',
+        //     {
+        //         src: 'https://vueschool.io/banner.js?affiliate=pinia&type=top',
+        //         // @ts-expect-error: vitepress bug
+        //         async: true,
+        //         type: 'text/javascript',
+        //     },
+        // ],
 
         ...(isProduction ? productionHead : []),
     ],
@@ -118,25 +118,25 @@ export const sharedConfig = defineConfig({
             }
         ],
 
-        footer: {
-            copyright: 'Copyright © 2019-present Eduardo San Martin Morote',
-            message: 'Released under the MIT License.',
-        },
+        // footer: {
+        //     copyright: 'Copyright © 2019-present Eduardo San Martin Morote',
+        //     message: 'Released under the MIT License.',
+        // },
 
-        editLink: {
-            pattern: 'https://github.com/vuejs/pinia/edit/v3/packages/docs/:path',
-            text: 'Suggest changes',
-        },
+        // editLink: {
+        //     pattern: 'https://github.com/vuejs/pinia/edit/v3/packages/docs/:path',
+        //     text: 'Suggest changes',
+        // },
 
-        search: {
-            provider: 'algolia',
-            options: {
-                appId: '69Y3N7LHI2',
-                apiKey: '45441f4b65a2f80329fd45c7cb371fea',
-                indexName: 'pinia',
-                locales: { ...zhSearch },
-            },
-        },
+        // search: {
+        //     provider: 'algolia',
+        //     options: {
+        //         appId: '69Y3N7LHI2',
+        //         apiKey: '45441f4b65a2f80329fd45c7cb371fea',
+        //         indexName: 'pinia',
+        //         locales: { ...zhSearch },
+        //     },
+        // },
 
         carbonAds: {
             code: 'CEBICK3I',

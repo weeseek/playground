@@ -18,7 +18,7 @@ const theme: Theme = {
     Layout() {
         return h(DefaultTheme.Layout, null, {
             'home-hero-image': () => h('div', { class: 'image-src' }, h(PiniaLogo)),
-            'aside-ads-before': () => h(AsideSponsors),
+            // 'aside-ads-before': () => h(AsideSponsors),
             'doc-before': () => h(TranslationStatus, { status, i18nLabels }),
             // 'layout-top': () => h(MadVueBanner),
         })

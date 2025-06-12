@@ -1,4 +1,5 @@
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
+import books from './books'
 
 export const META_URL = 'https://pinia.vuejs.org'
 export const META_TITLE = '游乐场 🍍'
@@ -135,8 +136,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             },
             {
                 text: '书籍',
-                items: [
-                ]
+                items: books
             }
         ],
 
