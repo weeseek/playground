@@ -36,6 +36,7 @@ const practices = [
 export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     description: META_DESCRIPTION,
     head: [
+        ['link', { rel: 'icon', type: 'image/x-icon', href: '/logo.ico' }],
         ['meta', { property: 'og:url', content: META_URL }],
         ['meta', { property: 'og:description', content: META_DESCRIPTION }],
         ['meta', { property: 'twitter:url', content: META_URL }],
