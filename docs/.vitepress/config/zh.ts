@@ -3,7 +3,7 @@ import books from './books'
 
 export const META_URL = 'https://pinia.vuejs.org'
 export const META_TITLE = '游乐场 🍍'
-export const META_DESCRIPTION = '值得你喜欢的 Vue Store'
+export const META_DESCRIPTION = '值得你喜欢的 前端知识、实战项目以及前沿领域。'
 
 // 项目实战
 const practices = [
