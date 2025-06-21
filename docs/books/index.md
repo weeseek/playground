@@ -30,7 +30,7 @@ Object.keys(files).forEach((path, a) => {
     :class="[index %2 === 0 ? 'tip' : 'warning']">
     <p class="custom-block-title">{{key}}</p>
     <div class="custom-block-content" > 
-        <a v-for="item in list" :key="item.name" class="VPLink link" :href="item.href">
+        <a v-for="item in list" :key="item.name" class="VPLink link" :href="item.href" _target="_blank">
             {{item.name}}
         </a>
     </div>
@@ -43,8 +43,11 @@ Object.keys(files).forEach((path, a) => {
         margin-top: 16px;
     }
     .VPLink {
-        width: 25%;
+        width: 24%;
         min-width: 250px;
         margin-bottom: 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 </style>
