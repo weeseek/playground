@@ -9,7 +9,29 @@ export const META_DESCRIPTION = '值得你喜欢的 前端知识、实战项目�
 const practices = [
     {
         text: "企业级微前端架构",
-        link: "/practice/microfrontend",
+        link: "/practice/microfrontend/overview",
+        // items: [
+        //     {
+        //         text: "微前端概述",
+        //         link: "/practice/microfrontend/overview",
+        //     },
+        //     {
+        //         text: "微前端架构设计",
+        //         link: "/practice/microfrontend/design",
+        //     },
+        //     {
+        //         text: "微前端技术选型",
+        //         link: "/practice/microfrontend/tech",
+        //     },
+        //     {
+        //         text: "微前端实现方式",
+        //         link: "/practice/microfrontend/implementation",
+        //     },
+        //     {
+        //         text: "微前端部署与运维",
+        //         link: "/practice/microfrontend/deployment",
+        //     }
+        // ]
     },
     {
         text: "企业级组件库建设",
@@ -137,7 +159,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             },
             {
                 text: '书籍',
-                items: books
+                link: '/books/index',
             }
         ],
 
