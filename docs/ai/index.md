@@ -175,3 +175,94 @@ https://zhuanlan.zhihu.com/p/50302396
 注：要全面了解一个技术领域，找找这个领域的综述论文是一个超实用的技巧。
 
 11、【实战项目】 推荐实战下国外的Kaggle、国内天池等竞赛项目。从头到尾地参加一两个机器学习项目，并取得不错的分数，基本上就差不多了。安利个Datawhale小队整理的国内外经典竞赛的项目方案及代码实现 https://github.com/datawhalechina/competition-baseline
+
+
+
+<tbody><tr style="height:14px">
+<td class="xl65" style="height:28.0875px;width:111.328px;text-align:center" height="19"><span style="font-size:18px"><strong>模块</strong></span></td>
+<td class="xl65" style="width:154.281px;height:28.0875px;text-align:center"><span style="font-size:18px"><strong>专题</strong></span></td>
+<td class="xl65" style="width:515.391px;height:28.0875px;text-align:center"><span style="font-size:18px"><strong>推荐知识点</strong></span></td>
+</tr>
+<tr style="height:14px">
+<td class="xl65" style="height:709.112px" rowspan="24" height="152"><span style="font-size:18px">AI基本方法</span><span style="font-size:18px"><br></span></td>
+<td class="xl67" style="height:238.35px" rowspan="9"><span style="font-size:18px">学习方法</span><span style="font-size:18px"><br></span></td>
+<td class="xl69" style="height:28.0875px;width:515.391px" height="19"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1xY411t7bK/?spm_id_from=333.788&amp;vd_source=fa65a814edf06b4bab33884221ed90a5" rel="nofollow">【人工智能】---监督学习</a></span></td>
+</tr>
+<tr style="height:14px">
+<td class="xl69" style="height:28.0875px;width:515.391px" height="19"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1JF411H7d2/?spm_id_from=333.788&amp;vd_source=fa65a814edf06b4bab33884221ed90a5" rel="nofollow">【人工智能】---无监督学习---聚类</a></span></td>
+</tr>
+<tr style="height:14px">
+<td class="xl69" style="height:28.0875px;width:515.391px" height="19"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1C44y1p7ud/?spm_id_from=333.337.search-card.all.click&amp;vd_source=fa65a814edf06b4bab33884221ed90a5" rel="nofollow">深度学习主干回顾第三讲——生成模型和判别模型</a></span></td>
+</tr>
+<tr style="height:14px">
+<td class="xl69" style="height:28.0875px;width:515.391px" height="19"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1qP4y1A7KE/?spm_id_from=333.788&amp;vd_source=fa65a814edf06b4bab33884221ed90a5" rel="nofollow">【人工智能】---强化学习</a></span></td>
+</tr>
+<tr style="height:24.4px">
+<td style="height:25.2px;width:217pt" width="290"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV11pRjYeEeP/?share_source=copy_web&amp;vd_source=4edb306497d53cac42f1615ae1f9a08e" rel="nofollow">直观解释所有机器学习模型</a></span></td>
+</tr>
+<tr style="height:24.4px">
+<td style="height:25.2px;width:217pt" width="290"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1Vz42197pS/?share_source=copy_web&amp;vd_source=4edb306497d53cac42f1615ae1f9a08e" rel="nofollow">直观理解机器学习中的线性回归</a></span></td>
+</tr>
+<tr style="height:24.4px">
+<td style="height:25.2px"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1ZJ4m1a743/?share_source=copy_web&amp;vd_source=4edb306497d53cac42f1615ae1f9a08e" rel="nofollow">直观理解机器学习中的神经⽹络</a></span></td>
+</tr>
+<tr style="height:24.4px">
+<td style="height:25.2px"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1BeVhzqEs3/?share_source=copy_web&amp;vd_source=4edb306497d53cac42f1615ae1f9a08e" rel="nofollow">符合⽣物机制的学习算法</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:25.2px;width:217pt" width="290"><span style="font-size:18px"><a href="https://ilearning.huawei.com/course/100000/application-learn/CNE202209161645013-296?classCode=&amp;sourcesType=&amp;blockType=&amp;blockId=&amp;sxz-lang=zh_CN#977fd3745e9b48c0be427a5ae811ade3" rel="nofollow">强化学习 - 李宏毅</a></span></td>
+</tr>
+<tr style="height:14px">
+<td class="xl67" style="height:84.1125px;width:154.281px" height="19"><span style="font-size:18px">计算机视觉</span></td>
+<td class="xl69" style="height:84.1125px;width:515.391px"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1YK41167p6/?spm_id_from=333.337.search-card.all.click&amp;vd_source=fa65a814edf06b4bab33884221ed90a5" rel="nofollow">上交大博士竟然把图像分类、图像检测、目标检测、图像分割、图像生成五大计算机视觉方向讲解的如此通俗易懂，草履虫都听懂了！</a></span></td>
+</tr>
+<tr style="height:14px">
+<td class="xl67" style="height:28.0875px;width:154.281px" height="19"><span style="font-size:18px">自然语言处理</span></td>
+<td class="xl69" style="height:28.0875px;width:515.391px"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1hM4y157xX?p=2&amp;vd_source=fa65a814edf06b4bab33884221ed90a5" rel="nofollow">李宏毅NLP(自然语言处理)完整课程，强推！</a></span></td>
+</tr>
+<tr style="height:14px">
+<td class="xl67" style="height:56.1625px;width:154.281px" height="19"><span style="font-size:18px">时序数据处理</span></td>
+<td class="xl69" style="height:56.1625px;width:515.391px"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1Be4y1h7t1/?spm_id_from=333.337.search-card.all.click" rel="nofollow">终于有人能把时间序列ARIMA模型讲的这么通俗易懂了，现在视觉序列+源码解读全套分享给大家。</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:100.8px" rowspan="4"><span style="font-size:18px">深度学习</span></td>
+<td style="height:25.2px;width:217pt" width="290"><span style="font-size:18px"><a href="https://ilearning.huawei.com/course/100000/application-learn/CNE202207141031053-268?classCode=&amp;sourcesType=&amp;blockType=&amp;blockId=&amp;sxz-lang=zh_CN#1d6dfd8bcfff40aa88cda69a3cf2a66f" rel="nofollow">深度学习简介 - 李宏毅</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:25.2px"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1bx411M7Zx/?share_source=copy_web&amp;vd_source=4edb306497d53cac42f1615ae1f9a08e" rel="nofollow">深度学习之神经⽹络的结构</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:25.2px"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1Ux411j7ri/?share_source=copy_web&amp;vd_source=4edb306497d53cac42f1615ae1f9a08e" rel="nofollow">深度学习之梯度下降法</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:25.2px"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV16x411V7Qg/?share_source=copy_web&amp;vd_source=4edb306497d53cac42f1615ae1f9a08e" rel="nofollow">深度学习之反向传播算法 上/下</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:25.2px;width:97pt" width="129"><span style="font-size:18px">卷积神经⽹络&nbsp;</span></td>
+<td style="height:25.2px;width:217pt" width="290"><span style="font-size:18px"><a href="https://ilearning.huawei.com/course/100000/application-learn/CNE202207271136051-220?classCode=&amp;sourcesType=&amp;blockType=&amp;blockId=&amp;sxz-lang=zh_CN#01df24b179d846a88d15019bcdd8b233" rel="nofollow">卷积神经⽹络 - 李宏毅</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:126px" rowspan="5" width="129"><span style="font-size:18px">⼤模型<br></span></td>
+<td style="height:25.2px;width:217pt" width="290"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV13z421U7cs/?share_source=copy_web&amp;vd_source=4edb306497d53cac42f1615ae1f9a08e" rel="nofollow">直观解释Transformer</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:25.2px"><span style="font-size:18px"><a href="https://www.bilibili.com/video/BV1TZ421j7Ke/?share_source=copy_web&amp;vd_source=4edb306497d53cac42f1615ae1f9a08e" rel="nofollow">直观解释注意⼒机制</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:25.2px"><span style="font-size:18px"><a href="https://ilearning.huawei.com/course/100000/application-learn/CNE202208171031008-410?classCode=&amp;sourcesType=&amp;blockType=&amp;blockId=&amp;sxz-lang=zh_CN#e2f46b0eb2024ffcad0498be91c8d9bc" rel="nofollow">BERT的奇闻轶事和GPT的野望 - 李宏毅</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:25.2px"><span style="font-size:18px"><a href="https://ilearning.huawei.com/course/100000/application-learn/CNE202208101714005-81?classCode=&amp;sourcesType=&amp;blockType=&amp;blockId=&amp;sxz-lang=zh_CN#3e78f898f8e24ec88726af312a6ad1af" rel="nofollow">⾃注意⼒机制 - 李宏毅</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:25.2px"><span style="font-size:18px"><a href="https://imss.huawei.com/blogs/details?blogId=21461117&amp;groupId=3912305&amp;welink_open_uri=aDU6Ly83OTE1NjQ1MzUzMDAyODcvaHRtbC9pbmRleC5odG1sIy9ibG9ncy9kZXRhaWxzP2Jsb2dJZD0yMTQ2MTExNyZncm91cElkPTM5MTIzMDUmdXJsPQ==" rel="nofollow">七分钟学习大模型的制作思路</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:25.2px;width:97pt" width="129"><span style="font-size:18px">AI Agent</span></td>
+<td style="height:25.2px;width:217pt" width="290"><span style="font-size:18px"><a href="https://ilearning.huawei.com/course/100000/application-learn/COU20250512000021?classCode=&amp;sourcesType=&amp;blockType=&amp;blockId=&amp;sxz-lang=zh_CN#17cf9d55cc804bfc9128e38527bda0f3" rel="nofollow">AI Agent - 李宏毅</a></span></td>
+</tr>
+<tr style="height:25.2px">
+<td style="height:25.2px;width:97pt" width="129"><span style="font-size:18px">扩展学习</span></td>
+<td style="width:217pt;height:25.2px" width="290"><span style="font-size:18px"><a href="https://ilearning.huawei.com/course/100000/application-learn/COU20250520000007?classCode=&amp;sourcesType=&amp;blockType=&amp;blockId=&amp;sxz-lang=zh_CN#5b5ce7c651134e83a22c973fec43dd84" rel="nofollow">AI的脑科学—语⾔模型内部运作机制剖析 - 李宏毅</a></span></td>
+</tr>
+</tbody>
