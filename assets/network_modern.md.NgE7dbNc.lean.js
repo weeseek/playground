@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./chunks/framework.BX9uSPFk.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"network/modern.md","filePath":"network/modern.md"}'),o={name:"network/modern.md"};function n(a,s,c,d,m,p){return r(),t("div")}const f=e(o,[["render",n]]);export{i as __pageData,f as default};
